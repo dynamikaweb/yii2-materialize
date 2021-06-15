@@ -28,7 +28,7 @@
     "require": {
         "php": ">=7.0",
         "yiisoft/yii2": "*",
-        "npm-asset/materializecss/materialize": "*",
+        "npm-asset/@materializecss/materialize": "*",
         "npm-asset/materialize-css": "*"
     },
     "replace": {
