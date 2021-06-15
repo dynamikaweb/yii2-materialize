@@ -28,8 +28,23 @@
     "require": {
         "php": ">=7.0",
         "yiisoft/yii2": "*",
-        "npm-asset/@materializecss/materialize": "*",
+        "npm-asset/materializecss/materialize": "*",
         "npm-asset/materialize-css": "*"
+    },
+    "replace": {
+        "macgyer/yii2-materializecss": "*",
+        "tuyakhov/yii2-materialize": "*",
+        "yii-ui/yii2-materialize-select2": "*",
+        "webmaxx/yii2-materialize": "*",
+        "kuakling/yii2-materialize": "*",
+        "yii-ui/yii2-materialize": "*",
+        "talview/yii2-materialize": "*",
+        "yii-ui/yii2-materialize-asset": "*",
+        "socialist/yii2-materialize": "*",
+        "globalmikebracas/yii2-materialize": "*",
+        "dmgpage/yii2-materialize": "*",
+        "alvarolordelo/yii2-materialize": "*",
+        "altiore/yii2-materialize": "*"
     },
     "minimum-stability": "dev",
     "prefer-stable": false,
