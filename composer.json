@@ -1,11 +1,12 @@
 {
-    "name": "dynamikaweb/yii2-template",
-    "description": "",
+    "name": "dynamikaweb/yii2-materialize",
+    "description": "yii plugin with widgets and assets for official/unofficial framework materializecss",
     "type": "yii2-extension",
     "keywords": [
         "dynamika",
         "yii",
-        "yii2"
+        "yii2",
+        "materialize"
     ],
     "license": "BSD-3-Clause",
     "authors": [
@@ -21,18 +22,20 @@
         }
     ],
     "support": {
-        "issues": "http://github.com/dynamikaweb/yii2-template/issues",
-        "source": "http://github.com/dynamikaweb/yii2-template"
+        "issues": "http://github.com/dynamikaweb/yii2-materialize/issues",
+        "source": "http://github.com/dynamikaweb/yii2-materialize"
     },
     "require": {
         "php": ">=7.0",
-        "yiisoft/yii2": "*"
+        "yiisoft/yii2": "*",
+        "npm-asset/@materializecss/materialize": "*",
+        "npm-asset/materialize-css": "*"
     },
     "minimum-stability": "dev",
     "prefer-stable": false,
     "autoload": {
         "psr-4": {
-            "dynamikaweb\\": "src"
+            "dynamikaweb\\materialize\\": "src"
         }
     }
 }
